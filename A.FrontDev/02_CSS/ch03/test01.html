@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>border-raius</title>
+    <style>
+        p {
+            background-color: greenyellow;
+            width: 300px;
+            height: 50px;
+            padding: 20px;
+            margin: 10px;
+        }
+        #i1 {
+            border-radius: 50px;
+        }
+        #i2 {
+            border-radius: 0 20px 40px 60px;
+            /* 각각 단위px붙이기 0은생략가능 */
+        }
+        #i3 {
+            border-radius: 0 20px 20px 40px;
+        }
+        #i4 {
+            border-radius: 0 20px 0px 20px;
+        }
+        #i5 {
+            border-radius: 50px;
+            border: 4px dotted;
+        }
+    </style>
+</head>
+<body>
+    <h3>둥근 모서리 테두리</h3>
+    <hr>
+
+    <p id="i1"> 반지름 50px의 둥근 모서리</p>
+    <p id="i2"> 반지름 0, 20, 40, 60px의 둥근 모서리</p>
+    <p id="i3"> 반지름 0, 20, 40, 20px의 둥근 모서리</p>
+    <p id="i4"> 반지름 0, 20, 0, 20px의 둥근 모서리</p>
+    <p id="i5"> 반지름 50px의 둥근 점선 모서리</p>
+
+</body>
+</html>

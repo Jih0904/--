@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        h3,li {
+            color: darkgoldenrod;
+        }
+        div > div > strong {
+            background-color:lightblue
+        }
+        /* 꺽쇠는 자식 */
+        ul li strong {
+            color:darkblue
+        }
+        /* 공백띄어쓰기는 손자 */
+
+        .warnig {
+            color:red;
+        }
+
+        body.main {
+            background-color: lavender }
+        
+            #list span {
+                color:rgb(25, 176, 83)
+            }
+        
+        h3:first-letter {
+            color: red;
+        }    
+        li:hover {
+            background: rgb(180, 194, 208)
+        }
+    </style>
+</head>
+
+<body class="main">
+
+    <h3>Web Programming</h3>
+    <hr>
+
+    <div>
+        <div>상반기 <strong>교과 내용</strong>입니다.</div>
+        <ul id="list">
+            <li><span>HTML5</span></li>
+            <li><strong>CSS3</strong></li>
+            <li>Javascript</li>
+        </ul>
+    <div class="warnig">미수료자는 재수강해야 합니다.</div>    
+    </div>
+
+
+
+</body>
+</html>

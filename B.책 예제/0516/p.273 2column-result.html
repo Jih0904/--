@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>2단 레이아웃</title>
+    <style>
+
+        #container {
+            border: none;
+            width: 1200px;
+            margin: 20px auto;
+        }
+        #header {
+            width: 1200px;
+            height: 120px;
+            background-color:lavender;
+        }
+        #sidebar {
+            width: 300px;
+            height: 600px;
+            background-color:rgb(195, 232, 255);
+            float: left;
+        }
+        #contents {
+            width: 900px;
+            height: 600px;
+            float: left;
+            background-color:bisque;
+        }
+        #footer {
+            width: 1200px;
+            height: 100px;
+            clear: left;
+            background-color:lightgrey;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>사이트 제목</h1>
+        </div>
+        <div id="sidebar">
+            <h2>사이드 바</h2>
+        </div>
+        <div id="contents">
+            <h2>본문</h2>
+        </div>
+        <div id="footer">
+            <h2>푸터</h2>
+        </div>
+
+    </div>
+</body>
+</html>

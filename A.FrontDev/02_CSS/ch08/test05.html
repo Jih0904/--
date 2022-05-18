@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .parent {
+            width: 600px;
+            height: 300px;
+            border: 5px solid #000;
+            position: relative;
+        }
+        .parent div {
+            width: 150px;
+            height: 100px;
+            background-color:navy;
+            
+        }
+        .child1 {
+            position:absolute;
+            left: 0;
+            top: 50%;
+        }
+        .child2 {
+            position:absolute;
+            top: 0;
+            left: 100%;
+        }
+        .child3 {
+            position: absolute;
+            top: 100%;
+            left: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+    </div>
+    
+</body>
+</html>

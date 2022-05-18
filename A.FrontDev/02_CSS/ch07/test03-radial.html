@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Radial gradient</title>
+    <style>
+        div {
+            width: 150px;
+            height: 200px;
+            background-color:lavender;
+            box-shadow: 3px 3px 5px rgb(204, 194, 207);
+            /* border: 1px solid #000; */
+            margin: 20px 10px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+        .grd1 {
+            background: radial-gradient(#E6E6FA,#bcbce0,#8b8ba4);
+        }
+        .grd2 {
+            background: radial-gradient(circle,#E6E6FA,#bcbce0,#8b8ba4)
+        }
+        .grd3 {
+            background: radial-gradient(30% 30%,#E6E6FA,#bcbce0,#8b8ba4);
+        }
+        .grd4 {
+            background: radial-gradient(circle closest-corner at 50% 100%,#E6E6FA,#bcbce0,#8b8ba4);
+        }
+        .grd5 {
+            background: repeating-radial-gradient(circle,#E6E6FA,#bcbce0 15%);
+        }
+        /* gr5 왜 안되노 ㅡㅡ 5를 6이라 썼으니 ^^;; 안되는게 당연함 ㅋ*/
+
+    </style>
+</head>
+<body>
+
+    <div class="grd1"></div>
+    <div class="grd2"></div>
+    <div class="grd3"></div>
+    <div class="grd4"></div>
+    <div class="grd5"></div>
+
+</body>
+</html>

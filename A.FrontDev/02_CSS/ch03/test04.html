@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>box-sizing</title>
+    <style>
+        div {
+            width: 600px;
+            height: 200px;
+            background-color: lavender;
+        }
+        .content-box {
+            border: 20px solid darkseagreen;
+            box-sizing: content-box;
+        }
+        .border-box {
+            border: 20px solid darkseagreen;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="content-box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut saepe alias atque inventore nisi nihil fugit tempora eaque ea? Tenetur!
+    </div>
+
+    <div class="border-box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, nobis cumque incidunt omnis sunt atque laboriosam excepturi magni, voluptatum optio deserunt molestiae, quos maiores aspernatur maxime fuga molestias officiis vero!
+    </div>
+    
+
+
+</body>
+</html>

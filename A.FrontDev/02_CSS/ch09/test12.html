@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>2단 레이아웃 만들기</title>
+    <style>
+        div {
+            border: 2px solid black;
+            padding: 20px;
+        }
+        #container {
+            width: 960px;
+            border: none;
+            margin: 0 auto; 
+            /* auto는 블럭의 중앙정렬 */
+        }
+        #header {
+            margin-bottom: 30px;
+        }
+
+        #contents {
+            width: 620px;
+            margin-bottom: 20px;
+            float: left;
+        }
+
+        #sidebar{
+            width: 220px;
+            margin-bottom: 20px;
+            float: right;
+        }
+
+        #footer {
+            clear: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>사이트 제목</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quas?</p>
+        </div>
+        <div id="sidebar">
+            <h2>사이드 바</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quae nisi et magnam ex laudantium saepe laborum praesentium consequatur repellat officia, obcaecati voluptatum voluptatibus neque enim repudiandae sapiente asperiores cum!
+            </p>
+        </div>    
+        <div id="contents">
+            <h2>본문</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita earum? Amet dicta voluptate sapiente repellendus voluptatum accusamus ex autem minus a consequatur ipsam, labore expedita modi eius nulla reiciendis omnis cum. Enim, nemo voluptatem.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita earum? Amet dicta voluptate sapiente repellendus voluptatum accusamus ex autem minus a consequatur ipsam, labore expedita modi eius nulla reiciendis omnis cum. Enim, nemo voluptatem.
+            </p>
+        </div>
+        <div id="footer">
+            <h2>푸터</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore neque voluptas dolore beatae provident expedita dignissimos placeat at harum sapiente?</p>
+        </div>
+
+    </div>
+</body>
+</html>

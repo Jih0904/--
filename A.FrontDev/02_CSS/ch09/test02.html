@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>가로배치하기_float</title>
+    <style>
+        .parent {
+            width: 600px;
+            border: 5px solid rgb(0, 0, 0);
+            height: 200px;
+            /* 자식에 높잇값줄거라 따로 안줌 근데 플롯으로 띄우면 높이값이 사라져서 줘야함 */
+            /* overflow: hidden; */
+            /* 얘도 높이준것처럼됨 */
+        }
+        .child {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(142, 142, 197);
+            float: left;
+            /* float의 두번째 기능 정렬배치에 사용 ; 부모가 높잇값 잃음 -> 붕 떠 있으니께*/
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+
+</body>
+</html>

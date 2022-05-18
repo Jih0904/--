@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Priority</title>
+    <style>
+        h1 {
+            color:red 
+            /* !important; */
+            /* !important는 ;앞에 써얗ㅁ */
+        }
+        .c {
+            color: orange;
+        }
+        #i {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS 적용우선순위 - 태그</h1>
+    <h1 class="c">CSS 적용우선순위 - 클래스</h1>
+    <h1 class="c" id="i">CSS 적용우선순위 - 아이디</h1>
+    <h1 id="i" style="color:green;">CSS 적용우선순위 - 인라인</h1>
+    <h1>CSS 적용우선순위 - !important</h1>
+    <!-- 위치랑 상관없이 우선순위로 적용 -->
+    
+</body>
+</html

@@ -1,0 +1,9 @@
+div {
+    color:darkgreen;
+    font-size: 20px;
+    
+    width: 220px;
+    height: 220px;
+    background: url("../images/logo.png");
+
+}

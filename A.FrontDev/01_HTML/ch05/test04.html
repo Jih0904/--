@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table, 
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>표(table)형식으로 정보 출력하기</h1>
+    <hr>
+
+    <table>
+        <caption>친구목록</caption>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+            
+        </colgroup>
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>이름</th>
+                <th>국적</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>P</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>A</td>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>U</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>L</td>
+                <td>E</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table width="100%">
+        <tr>
+            <td colspan="2">header</td>
+        </tr>
+        <tr>
+            <td>main</td>
+            <td>aside</td>
+        </tr>
+        <tr>
+            <td colspan="2">footer</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

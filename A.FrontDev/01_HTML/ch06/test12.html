@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 폼</title>
+</head>
+<body>
+    <h2>회원가입</h2>
+    <hr>
+
+    <form action="save.html" method="post">
+        <div>
+            <label for="id">아이디</label>
+            <input type="text" id="id" placeholder="아이디를 입력하세요.">
+        </div>
+        <div>
+            <label for="age">나이</label>
+            <input type="number" id="age" min="0">
+        </div>
+        <div>
+            <fieldset>
+                <legend>성별을 선택하세요</legend>
+                <input type="radio" name="gender" id="male">
+                <label for="male">남자</label>
+                <!-- 라벨 위치 상관 없음 앞이여도 뒤여도 ㄱㅊ -->
+                <input type="radio" name="gender" id="female">
+                <label for="female">여자</label>            
+            </fieldset>
+            <div>
+                <fieldset>
+                    <legend>취미를 선택하세요.</legend>
+                    <input type="checkbox" name="hobby" id="knitting" value="뜨개질">
+                    <label for="knitting">뜨개질</label>
+                    <input type="checkbox" name="hobby" id="yoga" value="요가">
+                    <label for="yoga">요가</label>
+                    <input type="checkbox" name="hobby" id="walk" value="산책">
+                    <label for="walk">산책</label>
+                </fieldset>
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>

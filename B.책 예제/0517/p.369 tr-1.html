@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>transition</title>
+    <style>
+        div {
+            width: 300px;
+            height: 100px;
+            background-color: rgb(231, 169, 169);
+        }
+        .box {
+            transition-property: width, height;  
+             transition-duration: 2s, 1s
+        }
+
+        .box:hover {
+            width: 500px;
+            height: 120px;
+            background-color: rgb(148, 117, 165);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

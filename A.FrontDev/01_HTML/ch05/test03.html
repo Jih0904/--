@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 주요 태그</title>
+    <style>
+        table, th, td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h3>HTML5 table 태그</h3>
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>제목 열 1</th>
+                <th>제목 열 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>내용 열 1</td>
+                <td>내용 열 2</td>
+            </tr>
+            <tr>
+                <td>내용 열 3</td>
+                <td>내용 열 4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>표의 마지막 열 1</td>
+                <td>표의 마지막 열 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>colspan과 rowspan</h3>
+    <table>
+        <tr>
+            <td rowspan="2">행 확장</td>
+            <td>열2</td>
+        </tr>
+        <tr>
+            <td>열2</td>
+        </tr>
+    </table>
+</body>
+</html>

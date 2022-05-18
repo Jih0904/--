@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector</title>
+    <style>
+        #select > div {
+            background-color:aquamarine
+        }
+        #select div div { color: red;
+
+        }
+        #select div1+div {
+            border: 3px solid #000;
+        }
+        /* 인접한 형제 어쩌고  선택자(전자)인접의 형제 선택*/
+        #select .div1~div {
+            font-style: italic;
+        }
+        /* 는 모두를 선택 */
+    </style>
+</head>
+<body>
+    <div id="select">
+        <div class="div1">
+            <div>A</div>
+        </div>
+
+        <div class="div2">B</div>
+
+        <div class="div3">
+            <div>c</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

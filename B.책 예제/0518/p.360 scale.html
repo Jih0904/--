@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            padding: 20px;
+            margin: 40px auto;
+            float: left;
+        }
+        #scalex {
+            width: 100px;
+            height: 100px;
+            background-color: lavender;
+        }
+        #scaley {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+        }
+        #scalexy {
+            width: 100px;
+            height: 100px;
+            background-color: lightseagreen;
+        }
+
+        #scalex:hover {transform: scaleX(2);}
+        #scaley:hover {transform: scaleY(1.5);}
+        #scalexy:hover {transform: scale(0.7);}
+    </style>
+</head>
+<body>
+   
+    <div id="scalex"></div>
+    <div id="scaley"></div>
+    <div id="scalexy"></div>
+    
+</body>
+</html>

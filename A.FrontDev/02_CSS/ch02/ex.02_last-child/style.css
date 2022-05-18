@@ -1,0 +1,40 @@
+body {
+    margin: 100px;
+}
+
+.tab-inner {
+    width: 263px;
+}
+
+
+.btn span {
+    width: 120px;
+    background-color: #ddd;
+    display:inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin-right: -7px;
+}
+.btn span:first-child {
+    background-color:#fff;
+}
+.btn span:last-child {
+    color:rgb(207, 0, 48)
+}
+
+.tab {
+    border: 1px solid #000;
+}
+.tab a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+    border-bottom: 1px dotted #333;
+}
+.tab a:last-child{
+    border-bottom: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Box-shadow</title>
+    <style>
+        div {
+            width: 250px;
+            height: 200px;
+            background-color: rgb(155, 155, 155);
+            margin: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .box1 {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+        }
+        /* x,y축 이동+블러 */
+        .box2 {
+            box-shadow: 0 0 20px rgba(76, 76, 204, 0.8);
+        }
+        /* x,y축 이동 없이 네방향 다 블러처리 */
+        .box3 {
+            box-shadow: 10px 10px 0 yellow ;
+        }
+        .box4 {
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, 399) ;
+        }
+        /* inset 안쪽 그림자 */
+        .box5 {
+            box-shadow: inset 0 0 20px white;
+        }
+        .box6 {
+            box-shadow:inset 0 0 80px black ;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+
+</body>
+</html>

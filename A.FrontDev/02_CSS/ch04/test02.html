@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>overflow 속성</title>
+    <style>
+        p {
+            width: 12em;
+            height: 3em;
+            border: 1px solid #000;
+        }
+        .hidden {overflow: hidden;}
+        .visible {overflow: visible} 
+        /* 기본값임 쓰나마나 */
+        .scroll {overflow: scroll;}
+        .auto {overflow: auto;}
+    </style>
+</head>
+<body>
+    <h3>overflow 속성</h3>
+    <hr>
+
+    <p class="hidden">
+        overflow의 hidden 값을 적용하면, 넘치는 내용이 잘려서, 보이지 않습니다.
+    </p><br>
+    <p class="visible">
+        overflow에 visible 값을 적용하면, 넘치는 내용이 그대로 보입니다.넘치걸아
+    </p> <br>
+    <p class="scroll">
+        overflow에 scroll 값을 적용하면, 박스에 스크롤바를 붙여 출력됩니다.
+    </p>
+    <p class="auto">
+        overflow에 auto 값을 적용하면, 박스에 넘치는 방향(축)만 스크롤바를 붙여 출력됩니다.
+    </p>
+</body>
+</html>

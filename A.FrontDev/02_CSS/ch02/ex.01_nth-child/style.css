@@ -1,0 +1,41 @@
+.box {
+    border: 5px solid rgb(159, 159, 159);
+    text-align: center;
+}
+
+.box div {
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* .box div:nth-child(1) {
+    background-color: cornflowerblue
+}
+.box div:nth-child(2) {
+    background-color: lightcoral;
+}
+.box div:nth-child(3) {
+    background-color: plum;
+}
+.box div:nth-child(4) {
+    background-color: sandybrown;
+} */
+
+
+
+.box div:nth-of-type(1) {
+    background-color: cornflowerblue;
+}
+.box div:nth-of-type(2) {
+    background-color: lightcoral;
+}
+.box div:nth-of-type(3) {
+    background-color: plum;
+}
+.box div:nth-of-type(4) {
+    background-color: sandybrown;
+}
+/* 특정타입만! 여러개가 있을경우에 ! h2 옮기면 위치는 변함 */

@@ -1,0 +1,23 @@
+.box > div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px 10px;
+
+    text-align: center;
+    line-height: 100px;
+    background-color: green;
+    display: inline-block;
+    
+}
+.box .box1:hover {
+    background-color: gray;
+    color: yellow;
+    cursor: pointer;
+}
+.box .box2:active {
+    background-color:palegoldenrod;
+    color: navy;
+    cursor: pointer;
+    
+}
