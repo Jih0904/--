@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,800;0,900;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+    line-height: 1.5em;
+    color: #222;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 높이가 없으면 중앙 안잡힘 */
+    height: 100vh;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+.login {
+    width: 800px;
+    background-color: #f5f5f5;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 0 3px rgba(34, 34, 34, 0.463) ;
+}
+.login span {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+.login input[type=email],
+.login input[type=password] {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.login input[type=email]:hover,
+.login input[type=password]:hover {
+    border: 1px solid rgb(40, 11, 255);
+    box-shadow: 0 0 2px rgb(40, 11, 255);
+}
+
+
+.login p {
+    overflow: hidden;
+}
+.login p label {
+    float: left;
+    cursor: pointer;
+}
+.login p a {
+    float: right;;
+}
+.login p a:hover {
+    text-decoration: underline;
+}
+
+.login button {
+    background-color: rgb(99, 143, 206);
+    color: #eee;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.login button:hover {
+    background-color: rgb(83, 85, 186);
+}
