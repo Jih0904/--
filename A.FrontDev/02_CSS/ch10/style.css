@@ -1,0 +1,68 @@
+.container {
+    border: 1px solid #000;
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: lightcoral;
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    /* flex-direction: row; 기본값*/
+}
+
+section article {
+    border: 1px solid #000;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+}
+
+.main {
+    flex: 4;
+    background-color: rgb(216, 216, 216);
+}
+
+.right {
+    flex: 1;
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightskyblue;
+    padding: 2em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+        /* 세로 정렬 */
+    }
+
+    .left {
+        order: 2;
+    }
+
+    .main {
+        order: 1;
+    }
+
+    .right {
+        order: 3;
+    }
+}
