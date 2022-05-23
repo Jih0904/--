@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+          function calcSum(n) {
+            var sum = 0;
+            for( let i = 1; i < n + 1; i++ ) {
+                sum += i;
+            }
+            document.write("1부터" + n + "까지 더하면" + sum);
+            
+        }
+        var useNumber = prompt("얼마까지 더할까요?");
+            if (useNumber !== null) {
+                calcSum(parseInt(useNumber));
+            }
+        
+    </script>
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
